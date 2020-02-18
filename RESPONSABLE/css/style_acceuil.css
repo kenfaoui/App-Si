@@ -1,0 +1,80 @@
+body {
+  /*background-image: url("../img/lolo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+background-color: #595959;
+}
+#ajouter{
+      margin-top: 20px;
+
+      display: inline-block;
+		}
+#editer_profile{
+  margin-top: 20px;
+      display: inline-block;
+      margin-right: 430px;
+}
+
+#h1decor{
+     font-family: 'Monoton', cursive;
+     color: white;
+		}
+
+	#h2decor	{
+	font-family: 'Pacifico', cursive;
+     color: white;
+
+		}
+input[type=text]{
+  
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 350px;
+width: 1000px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+@media (max-width: 600px){
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+  .my-custom-scrollbar {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        overflow: auto;
+}
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+}
